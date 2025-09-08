@@ -131,7 +131,9 @@ The **validation accuracy vs. epochs** plot is included below:
 
 The full implementation is available in the Jupyter notebook file:  
 
-**[LLM_Homework1_T5_IMDB.ipynb](https://colab.research.google.com/drive/1EoVTaAf5U4qbAiGgG3CKxjX7tvclns69?usp=sharing)**  
+**[FullFineTune.ipynb](https://colab.research.google.com/drive/1EoVTaAf5U4qbAiGgG3CKxjX7tvclns69?usp=sharing)**  
+**[ZeroShot.ipynb]([https://colab.research.google.com/drive/1EoVTaAf5U4qbAiGgG3CKxjX7tvclns69?usp=sharing](https://colab.research.google.com/drive/1k_0Chg4HEGXrWl67zAQnsC2Z6lU2066G?usp=sharing))**  
+
 
 This notebook contains:  
 - Data preprocessing and tokenization using HuggingFace `datasets` and `T5TokenizerFast`  
