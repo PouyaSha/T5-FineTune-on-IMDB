@@ -123,8 +123,7 @@ The training and validation results for each epoch are summarized below:
 
 The **validation accuracy vs. epochs** plot is included below:
 
-![Validation Accuracy vs. Epochs](images/valid_acc_plot.png)  
-*(Make sure to save your plot as `valid_acc_plot.png` in an `images` folder in your repo.)*
+![Validation Accuracy vs. Epochs](images/valid_acc.png)  
 
 ---
 
@@ -132,7 +131,7 @@ The **validation accuracy vs. epochs** plot is included below:
 
 The full implementation is available in the Jupyter notebook file:  
 
-**[LLM_Homework1_T5_IMDB.ipynb](notebooks/LLM_Homework1_T5_IMDB.ipynb)**  
+**[LLM_Homework1_T5_IMDB.ipynb](https://colab.research.google.com/drive/1EoVTaAf5U4qbAiGgG3CKxjX7tvclns69?usp=sharing)**  
 
 This notebook contains:  
 - Data preprocessing and tokenization using HuggingFace `datasets` and `T5TokenizerFast`  
@@ -142,12 +141,6 @@ This notebook contains:
 
 ---
 
-## How to Run
-
-1. Clone this repository:
-```bash
-git clone https://github.com/<your-username>/t5-imdb-sentiment.git
-cd t5-imdb-sentiment
 
      
 
