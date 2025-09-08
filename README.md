@@ -45,11 +45,30 @@ We experimented with three main scenarios:
    - **Accuracy:** 75.55%  
    - **Example predictions:**
      ```
-     Sample 1: positive
-     Sample 2: positive
-     Sample 3: negative
-     Sample 4: negative
-     Sample 5: positive
+      Sample 1:
+      Review : worth the entertainment value of a rental, especially if you like action movies...
+      True : negative
+      Pred : positive
+      
+      Sample 2:
+      Review : i turned over to this film in the middle of the night...
+      True : positive
+      Pred : : positive
+      
+      Sample 3:
+      Review : to think this film was made the year i was born...
+      True : positive
+      Pred : negative
+      
+      Sample 4:
+      Review : "in the sweltering summer of 1958, the deuces, a gang of brooklyn toughs...
+      True : negative
+      Pred : negative
+      
+      Sample 5:
+      Review : i would have given this film a one star vote...
+      True : negative
+      Pred : positive
      ```
 
 3. **Full Fine-Tuning (10 epochs):**  
@@ -57,11 +76,30 @@ We experimented with three main scenarios:
    - **Accuracy:** 90.00%  
    - **Example predictions:**
      ```
-     Sample 1: negative
-     Sample 2: positive
-     Sample 3: positive
-     Sample 4: positive
-     Sample 5: negative
+      Sample 1:
+      Review : worth the entertainment value of a rental, especially if you like action movies...
+      True : negative
+      Pred : negative
+      
+      Sample 2:
+      Review : i turned over to this film in the middle of the night...
+      True : positive
+      Pred : : positive
+      
+      Sample 3:
+      Review : to think this film was made the year i was born...
+      True : positive
+      Pred : postive
+      
+      Sample 4:
+      Review : "in the sweltering summer of 1958, the deuces, a gang of brooklyn toughs...
+      True : negative
+      Pred : positive
+      
+      Sample 5:
+      Review : i would have given this film a one star vote...
+      True : negative
+      Pred : negative
      ```
 
 ---
