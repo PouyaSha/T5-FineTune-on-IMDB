@@ -150,6 +150,9 @@ We also explored **soft prompts, adapters, and LoRA**, which allow training **on
 ---
 
 ### **1. Soft Prompt - Manual from Scratch**
+The full implementation is available in the Jupyter notebook file:  
+**[SoftPromptManual.ipynb](https://colab.research.google.com/drive/14WlngZefnF3VlA-X6bsVZGqVFM9ZzniH?usp=sharing)**  
+
 - **Total parameters:** 60,511,744  
 - **Trainable parameters (soft prompts only):** 5,120  
 - **Best validation accuracy:** 86.8%  
@@ -160,6 +163,8 @@ We also explored **soft prompts, adapters, and LoRA**, which allow training **on
 ---
 
 ### **2. Soft Prompt - Using OpenDelta**
+The full implementation is available in the Jupyter notebook file:  
+**[SoftPromptOpenDelta.ipynb](https://colab.research.google.com/drive/1EN85aCMWFlpAr1LMHm6CY25pfqZrnGbv?usp=sharing)** 
 
 **2.1 n_tokens = 10**  
 - **Total parameters:** 60,511,744  
@@ -180,6 +185,9 @@ We also explored **soft prompts, adapters, and LoRA**, which allow training **on
 ---
 
 ### **3. Adapter - Manual from Scratch**
+The full implementation is available in the Jupyter notebook file:  
+**[Adaptre.ipynb](https://colab.research.google.com/drive/1XEko-ZogYDI4EabeoCTQCogE9hB-wXPe?usp=sharing)** 
+
 - **Total parameters:** not calculated yet  
 - **Trainable parameters (adapter only):** not calculated yet  
 - **Best validation accuracy:** not calculated yet  
