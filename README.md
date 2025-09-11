@@ -210,10 +210,13 @@ We also explored **soft prompts, adapters, and LoRA**, which allow training **on
 
 ---
 
-### **Summary Table**
+### **Summary Table (All Methods)**
 
 | Method | Total Parameters | Trainable Parameters | Best Accuracy | Notes |
 |--------|----------------|-------------------|---------------|-------|
+| Zero-Shot (unconstrained) | 60,511,744 | 0 | ~0% | T5 used as-is |
+| Zero-Shot (constrained: positive/negative) | 60,511,744 | 0 | 75.55% | First-token probability selection |
+| Full Fine-Tuning (10 epochs) | 60,511,744 | 60,511,744 | 90.0% | All parameters trained |
 | Soft Prompt - Manual | 60,511,744 | 5,120 | 86.8% | Manual initialization |
 | Soft Prompt - OpenDelta (n_tokens=10) | 60,511,744 | 5,120 | 87.1% | Automated soft prompt tuning |
 | Soft Prompt - OpenDelta (n_tokens=1) | 60,511,744 | 512 | not calculated | Extremely lightweight |
@@ -221,10 +224,6 @@ We also explored **soft prompts, adapters, and LoRA**, which allow training **on
 | Adapter - AdapterHub | not calculated | not calculated | not calculated | Pre-built adapter configs |
 | LoRA | not calculated | not calculated | not calculated | Low-rank updates in attention |
 
----
-
-
----
 
 
      
