@@ -177,7 +177,7 @@ The full implementation is available in the Jupyter notebook file:
 **2.2 n_tokens = 1**  
 - **Total parameters:** 60,511,744  
 - **Trainable parameters:** 512  
-- **Best validation accuracy:** not calculated yet  
+- **Best validation accuracy:** 84.8% 
 - **Notes:**  
   - Extremely lightweight prompt tuning.  
   - Expected performance slightly lower due to reduced prompt capacity.
@@ -188,9 +188,9 @@ The full implementation is available in the Jupyter notebook file:
 The full implementation is available in the Jupyter notebook file:  
 **[Adaptre.ipynb](https://colab.research.google.com/drive/1XEko-ZogYDI4EabeoCTQCogE9hB-wXPe?usp=sharing)** 
 
-- **Total parameters:** not calculated yet  
-- **Trainable parameters (adapter only):** not calculated yet  
-- **Best validation accuracy:** not calculated yet  
+- **Total parameters:** 60,511,744  
+- **Trainable parameters (adapter only):** 104,544  
+- **Best validation accuracy:** 90.6%  
 - **Notes:**  
   - Pfeiffer-style adapters inserted after feedforward layers.  
   - Only adapters are trained, keeping main T5 weights frozen.
