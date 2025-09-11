@@ -227,10 +227,10 @@ The full implementation is available in the Jupyter notebook file:
 | Full Fine-Tuning (10 epochs) | 60,511,744 | 60,511,744 | 90.0% | All parameters trained |
 | Soft Prompt - Manual | 60,511,744 | 5,120 | 86.8% | Manual initialization |
 | Soft Prompt - OpenDelta (n_tokens=10) | 60,511,744 | 5,120 | 87.1% | Automated soft prompt tuning |
-| Soft Prompt - OpenDelta (n_tokens=1) | 60,511,744 | 512 | not calculated | Extremely lightweight |
-| Adapter - Manual | not calculated | not calculated | not calculated | Pfeiffer-style adapter |
-| Adapter - AdapterHub | not calculated | not calculated | not calculated | Pre-built adapter configs |
-| LoRA | not calculated | not calculated | not calculated | Low-rank updates in attention |
+| Soft Prompt - OpenDelta (n_tokens=1) | 60,511,744 | 512 | 84.8% | Extremely lightweight |
+| Adapter - Manual | 60,511,744 | 104,544 | 90.6% | Pfeiffer-style adapter |
+| Adapter - AdapterHub | 60,511,744 | not calculated | not calculated | Pre-built adapter configs |
+| LoRA | not calculated | 60,511,744 | not calculated | Low-rank updates in attention |
 
 
 
